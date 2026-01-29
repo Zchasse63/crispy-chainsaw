@@ -1,0 +1,66 @@
+{
+  "description": "Unified reefer freight modifiers - SINGLE SOURCE OF TRUTH",
+  "calibration_date": "2026-01-19",
+  "calibration_notes": "Calibrated against 4 actual broker quotes. Previous 2.75x generic multiplier was 37-176% too high.",
+
+  "origin_multipliers": {
+    "description": "Reefer multiplier applied to dry LTL quote based on origin location",
+    "GA": {"multiplier": 1.90, "notes": "Southeast poultry hub - abundant reefer capacity"},
+    "FL": {"multiplier": 1.90, "notes": "Southeast - similar to GA"},
+    "AL": {"multiplier": 1.90, "notes": "Southeast - similar to GA"},
+    "SC": {"multiplier": 1.90, "notes": "Southeast - similar to GA"},
+    "PA": {"multiplier": 2.35, "notes": "Northeast - tighter reefer capacity"},
+    "NJ": {"multiplier": 2.35, "notes": "Northeast - similar to PA"},
+    "NY": {"multiplier": 2.35, "notes": "Northeast - similar to PA"},
+    "OH": {"multiplier": 2.35, "notes": "Northeast - similar to PA"},
+    "IN": {"multiplier": 2.10, "notes": "Midwest - moderate capacity"},
+    "IL": {"multiplier": 2.10, "notes": "Midwest - similar to IN"},
+    "MI": {"multiplier": 2.10, "notes": "Midwest - similar to IN"},
+    "TN": {"multiplier": 2.00, "notes": "Mid-South - between SE and Midwest"},
+    "KY": {"multiplier": 2.00, "notes": "Mid-South - similar to TN"},
+    "NC": {"multiplier": 2.00, "notes": "Mid-South - similar to TN"},
+    "TX": {"multiplier": 2.15, "notes": "Texas/Central - moderate capacity"},
+    "MO": {"multiplier": 2.15, "notes": "Central - similar to TX"},
+    "KS": {"multiplier": 2.15, "notes": "Central - similar to TX"},
+    "WA": {"multiplier": 2.50, "notes": "West Coast - limited reefer capacity"},
+    "OR": {"multiplier": 2.50, "notes": "West Coast - similar to WA"},
+    "CA": {"multiplier": 2.50, "notes": "West Coast - similar to WA"},
+    "MN": {"multiplier": 2.30, "notes": "Upper Midwest - tighter capacity"},
+    "WI": {"multiplier": 2.30, "notes": "Upper Midwest - similar to MN"},
+    "IA": {"multiplier": 2.20, "notes": "Upper Midwest - moderate"},
+    "NE": {"multiplier": 2.20, "notes": "Plains - moderate"}
+  },
+
+  "warehouse_multipliers": {
+    "description": "Quick lookup by Fleetwood warehouse code",
+    "GA_COLD": {"state": "GA", "multiplier": 1.90, "location": "Americus, GA", "zip": "31709"},
+    "A_R_T": {"state": "PA", "multiplier": 2.35, "location": "Boyertown, PA", "zip": "19512"},
+    "Indianapolis": {"state": "IN", "multiplier": 2.10, "location": "Indianapolis, IN", "zip": "46201"}
+  },
+
+  "season_modifiers": {
+    "description": "Seasonal adjustments based on reefer capacity demand",
+    "jan": {"modifier": 1.00, "type": "normal"},
+    "feb": {"modifier": 1.00, "type": "normal"},
+    "mar": {"modifier": 1.00, "type": "normal"},
+    "apr": {"modifier": 1.00, "type": "normal"},
+    "may": {"modifier": 1.15, "type": "peak", "notes": "Peak produce season starts"},
+    "jun": {"modifier": 1.15, "type": "peak", "notes": "Peak produce season"},
+    "jul": {"modifier": 1.15, "type": "peak", "notes": "Peak produce season"},
+    "aug": {"modifier": 1.00, "type": "normal"},
+    "sep": {"modifier": 1.00, "type": "normal"},
+    "oct": {"modifier": 1.00, "type": "normal"},
+    "nov": {"modifier": 1.08, "type": "holiday", "notes": "Holiday shipping surge"},
+    "dec": {"modifier": 1.08, "type": "holiday", "notes": "Holiday shipping surge"}
+  },
+
+  "margin_multiplier": 1.15,
+  "standard_quote_weight_lbs": 4000,
+  "standard_pallet_count": 2,
+
+  "calibration_validation": [
+    {"lane": "PA→GA frozen", "our_estimate": 0.482, "actual": 0.475, "variance_pct": 1.5},
+    {"lane": "PA→KY frozen", "our_estimate": 0.482, "actual": 0.475, "variance_pct": 1.5},
+    {"lane": "GA→NO frozen", "our_estimate": 0.429, "actual": 0.40, "variance_pct": 7.0}
+  ]
+}

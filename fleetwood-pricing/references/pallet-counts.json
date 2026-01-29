@@ -1,0 +1,814 @@
+{
+  "00382": {
+    "description": "PORK PICNIC BNLS 78% FRZ CW",
+    "brand": "HORMEL",
+    "pack_size": "60LB",
+    "cases_per_pallet": 35,
+    "ti": 7,
+    "hi": 5
+  },
+  "00652A": {
+    "description": "FC BACON TOPPING",
+    "brand": "BROOKFIELD",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 143
+  },
+  "02396": {
+    "description": "HAM STEAK HONEY BULK FRZ CW",
+    "brand": "BUTHERWAGON",
+    "pack_size": "12/1.5LB",
+    "cases_per_pallet": 80
+  },
+  "02690": {
+    "description": "HAM STEAK TRADITIONAL BULK FRZ CW",
+    "brand": "CLEMENS",
+    "pack_size": "12/1.5LB",
+    "cases_per_pallet": 80
+  },
+  "027446": {
+    "description": "FC PORK & CHICKEN SAUSAGE PATTY",
+    "brand": "JIMMY DEAN",
+    "pack_size": "30 LB",
+    "cases_per_pallet": 42
+  },
+  "031973": {
+    "description": "AMERICAN CHEESE SLICED",
+    "brand": "SLICING HUNGER",
+    "pack_size": "12/1LB",
+    "cases_per_pallet": 160,
+    "ti": 20,
+    "hi": 8
+  },
+  "044192": {
+    "description": "FRIES CRINKLE CUT RETAIL FRZ 5LB",
+    "brand": "LYNDED FARMS",
+    "pack_size": "6/5 LB",
+    "cases_per_pallet": 60
+  },
+  "06232": {
+    "description": "TIRAMISU LAYER CAKE",
+    "brand": "THE ORIGINAL CAKERIE",
+    "pack_size": "2/174OZ TR",
+    "cases_per_pallet": 56
+  },
+  "07154": {
+    "description": "FLEETWOOD FARMS CHICKEN TENDERS",
+    "brand": "FLEETWOOD FARMS",
+    "pack_size": "18/24OZ",
+    "cases_per_pallet": 48
+  },
+  "08169": {
+    "description": "UC CHICKEN WING SECTIONS SMKY D RETAIL",
+    "brand": "SMOKEY D",
+    "pack_size": "4/10 LB",
+    "cases_per_pallet": 40
+  },
+  "08180": {
+    "description": "PORK SPARERIBS 2 PC RTL PROP 12",
+    "brand": "HATFIELD",
+    "pack_size": "4/2 PC",
+    "cases_per_pallet": 35,
+    "ti": 7,
+    "hi": 5
+  },
+  "09345": {
+    "description": "HAM SLICING LOG WA TOTE FRZ CW",
+    "brand": "HORMEL",
+    "pack_size": "1100TT",
+    "cases_per_pallet": 1,
+    "ti": 1,
+    "hi": 1
+  },
+  "1027612": {
+    "description": "5 LAYER LEMON CURD CAKE",
+    "brand": "THE ORIGINAL CAKERIE",
+    "pack_size": "2/6.88 LB",
+    "cases_per_pallet": 42
+  },
+  "10998": {
+    "description": "PORK LOIN TRIM FRZ",
+    "brand": "BEELERS",
+    "pack_size": "60LB",
+    "cases_per_pallet": 25
+  },
+  "1172-12": {
+    "description": "TURKEY WHOLE 12/14 CW RETAIL",
+    "brand": "TURKEY VALLEY FARMS",
+    "pack_size": "4/1PC",
+    "cases_per_pallet": 40
+  },
+  "119377": {
+    "description": "DELI TURKEY BREAST O/B PREM FRZ CW",
+    "brand": "JENNIE-O",
+    "pack_size": "2PC",
+    "cases_per_pallet": 63,
+    "ti": 9,
+    "hi": 7
+  },
+  "1214": {
+    "description": "RTC BRD CHICKEN TENDERS",
+    "brand": "SPRING FARMS",
+    "pack_size": "10 LB",
+    "cases_per_pallet": 136
+  },
+  "121686": {
+    "description": "PORK CUSHION BNLS GCF VAC FRZ CW",
+    "brand": "HORMEL",
+    "pack_size": "6PC",
+    "cases_per_pallet": 28,
+    "ti": 4,
+    "hi": 7
+  },
+  "1233": {
+    "description": "RTC CHICKEN TENDERS",
+    "brand": "SPRING FARMS",
+    "pack_size": "10 LB",
+    "cases_per_pallet": 136
+  },
+  "1235": {
+    "description": "RTC CHICKEN TENDERS",
+    "brand": "SPRING FARMS",
+    "pack_size": "10 LB",
+    "cases_per_pallet": 136
+  },
+  "1239": {
+    "description": "RTC CHICKEN TENDERS",
+    "brand": "SPRING FARMS",
+    "pack_size": "10 LB",
+    "cases_per_pallet": 136
+  },
+  "130005": {
+    "description": "RTC BRD CHICKEN TENDERS",
+    "brand": "OK FOODS",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 143
+  },
+  "13686": {
+    "description": "WHOLE CHICKEN BAGGED RETAIL CW",
+    "brand": "TYSON",
+    "pack_size": "10-12/HD",
+    "cases_per_pallet": 40
+  },
+  "142812K": {
+    "description": "TURKEY WHOLE 10/14 CW RETAIL",
+    "brand": "JENNIE-O",
+    "pack_size": "4/1PC",
+    "cases_per_pallet": 40
+  },
+  "18766": {
+    "description": "ROAST BEEF DELI SLICED CW RETAIL",
+    "brand": "DAN'S PRIZE",
+    "pack_size": "10LB",
+    "cases_per_pallet": 110
+  },
+  "19228": {
+    "description": "FC DICED CANADIAN BACON",
+    "brand": "BURKE",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 120
+  },
+  "20239": {
+    "description": "IQF CHICKEN BREAST PIECES",
+    "brand": "BRAKEBUSH",
+    "pack_size": "8-5 LB",
+    "cases_per_pallet": 42
+  },
+  "20427": {
+    "description": "BEEF TOP ROUND C/O MED FRZ CW",
+    "brand": "BLOCK AND BARREL",
+    "pack_size": "2/8 LB",
+    "cases_per_pallet": 54
+  },
+  "209": {
+    "description": "PORK SAUSAGE HOT BULK FRZ",
+    "brand": "BEELERS",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 180
+  },
+  "22203": {
+    "description": "RTC BRD COCONUT CHICKEN TENDERS",
+    "brand": "BELL & EVANS",
+    "pack_size": "4/2.5 LB",
+    "cases_per_pallet": 120
+  },
+  "22377": {
+    "description": "RTC BRD CHICKEN DRUMS",
+    "brand": "BELL & EVANS",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 120
+  },
+  "2265": {
+    "description": "RTC BRD CHICKEN TENDERS",
+    "brand": "SPRING FARMS",
+    "pack_size": "10 LB",
+    "cases_per_pallet": 136
+  },
+  "22655KF": {
+    "description": "TURKEY WHOLE 16/20 CW RETAIL",
+    "brand": "BUTTERBALL",
+    "pack_size": "2/PC",
+    "cases_per_pallet": 40
+  },
+  "2341": {
+    "description": "RTC BRD CHICKEN TENDERS",
+    "brand": "SPRING FARMS",
+    "pack_size": "10 LB",
+    "cases_per_pallet": 136
+  },
+  "2433": {
+    "description": "RTC BRD CHICKEN BREAST STRIP FRITTE",
+    "brand": "WAYNE FARMS",
+    "pack_size": "10 LB",
+    "cases_per_pallet": 136
+  },
+  "2456": {
+    "description": "RTC BRD CHICKEN BREAST STRIP FRTR",
+    "brand": "SANDERSON",
+    "pack_size": "6/5LB BAGS",
+    "cases_per_pallet": 45
+  },
+  "26077": {
+    "description": "PORK CHOP SEASONED E & P FRZ",
+    "brand": "HORMEL",
+    "pack_size": "10 LB",
+    "cases_per_pallet": 99
+  },
+  "26529": {
+    "description": "FC DICED CHICKEN",
+    "brand": "TIP TOP",
+    "pack_size": "30 LB",
+    "cases_per_pallet": 56
+  },
+  "29784": {
+    "description": "RTC CHICKEN TENDERS",
+    "brand": "CHEF QUIK",
+    "pack_size": "20 LB",
+    "cases_per_pallet": 63
+  },
+  "30126": {
+    "description": "STRAIGHT CUT FRIES RETAIL",
+    "brand": "LYNDED FARMS",
+    "pack_size": "6/4 LB",
+    "cases_per_pallet": 90
+  },
+  "30299": {
+    "description": "PORK CUSHION BNLS VAC FRZ CW",
+    "brand": "HORMEL",
+    "pack_size": "6/5LB",
+    "cases_per_pallet": 28,
+    "ti": 4,
+    "hi": 7
+  },
+  "305057": {
+    "description": "FRIES SHOE STRING 1/4 RTL 20Z FRZ",
+    "brand": "LYNDED FARMS",
+    "pack_size": "12/20 OZ",
+    "cases_per_pallet": 108
+  },
+  "342060": {
+    "description": "RTC CHICKEN TENDERS",
+    "brand": "SPRING RIVER FARMS",
+    "pack_size": "4/5 LB",
+    "cases_per_pallet": 75
+  },
+  "342156": {
+    "description": "FC WING SECTIONS",
+    "brand": "SPRING RIVER FARMS",
+    "pack_size": "4/5 LB",
+    "cases_per_pallet": 75
+  },
+  "36037": {
+    "description": "PORK LONG BONE RIB ENDS 3/5 FRZ CW",
+    "brand": "BEELERS",
+    "pack_size": "4/4PC",
+    "cases_per_pallet": 56
+  },
+  "36806": {
+    "description": "PORK ST LOUIS P12 3.75LB FRZ CW",
+    "brand": "BEELERS",
+    "pack_size": "4/2PC",
+    "cases_per_pallet": 63
+  },
+  "36808": {
+    "description": "PORK ST LOUIS P12 2.25UP FRZ CW",
+    "brand": "BEELERS",
+    "pack_size": "3/3PC",
+    "cases_per_pallet": 24
+  },
+  "384655": {
+    "description": "FC DICED CHICKEN",
+    "brand": "KOCH",
+    "pack_size": "2/5",
+    "cases_per_pallet": 143,
+    "ti": 11,
+    "hi": 13
+  },
+  "4080499": {
+    "description": "FC SLICED CHICKEN BREAST",
+    "brand": "FLEETWOOD",
+    "pack_size": "30LB",
+    "cases_per_pallet": 48,
+    "ti": 8,
+    "hi": 6
+  },
+  "41155": {
+    "description": "BEEF MEATBALLS ITALIAN FC 1.5Z FRZ",
+    "brand": "ROSINA",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 180
+  },
+  "413007": {
+    "description": "GROUND TURKEY 85/15 RETAIL",
+    "brand": "JENNIE-O",
+    "pack_size": "8/1LB",
+    "cases_per_pallet": 64
+  },
+  "4210": {
+    "description": "TURKEY DRUMS SMOKED RTL FRZ CW",
+    "brand": "STAHL MEYER",
+    "pack_size": "12/TRAY",
+    "cases_per_pallet": 40
+  },
+  "4211": {
+    "description": "TURKEY DRUMS SLICED RTL FRZ SMK CW",
+    "brand": "STAHL MEYER",
+    "pack_size": "12/TRAYS",
+    "cases_per_pallet": 40
+  },
+  "4230": {
+    "description": "TURKEY WING SMOKED RTL FRZ CW",
+    "brand": "STAHL MEYER",
+    "pack_size": "12/ TRAYS",
+    "cases_per_pallet": 40
+  },
+  "484426": {
+    "description": "RAW THICK SLICED BACON",
+    "brand": "BURGER KING",
+    "pack_size": "2/15LB",
+    "cases_per_pallet": 66
+  },
+  "484481": {
+    "description": "SINGLE SLICED BACON, 30 LBS",
+    "brand": "CARGILL MEAT SOLUTIONS",
+    "pack_size": "30 LBS",
+    "cases_per_pallet": 64
+  },
+  "5008B": {
+    "description": "FC BRD CHICKEN NUGGETS",
+    "brand": "FLEETWOOD",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 130
+  },
+  "502001": {
+    "description": "TURKEY GROUND 93/7 RETAIL",
+    "brand": "JENNIE-O",
+    "pack_size": "12/1LB",
+    "cases_per_pallet": 80
+  },
+  "5028403": {
+    "description": "FC GRILLED CHICKEN STRIPS",
+    "brand": "CARDINAL FOODS",
+    "pack_size": "4/5 LB",
+    "cases_per_pallet": 60
+  },
+  "5180": {
+    "description": "FC DICED WHITE CHICKEN",
+    "brand": "FLEETWOOD",
+    "pack_size": "10 LB",
+    "cases_per_pallet": 144
+  },
+  "52423": {
+    "description": "CHICKEN FILET BRD SPCY RTC FRZ",
+    "brand": "TYSON",
+    "pack_size": "6/5.62LB",
+    "cases_per_pallet": 42
+  },
+  "52461": {
+    "description": "CHICKEN WOG TRAD DELI NAE",
+    "brand": "TYSON",
+    "pack_size": "10Head/cs",
+    "cases_per_pallet": 42
+  },
+  "52781": {
+    "description": "CHICKEN TOPPING ROASTED FC FRZ",
+    "brand": "HORMEL",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 90
+  },
+  "5296449": {
+    "description": "FC SHREDDED CHICKEN",
+    "brand": "CTI",
+    "pack_size": "40 LB",
+    "cases_per_pallet": 42
+  },
+  "535088": {
+    "description": "FC DICED CHICKEN, ITALIAN",
+    "brand": "FLEETWOOD",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 144
+  },
+  "5453": {
+    "description": "FC HALAL DICED DARK MEAT, BIRYANI",
+    "brand": "PACKER",
+    "pack_size": "30 LB",
+    "cases_per_pallet": 42
+  },
+  "56210": {
+    "description": "FRIES DARK RD STRAIGHT 3/8 S/ON FRZ",
+    "brand": "CAVENDISH",
+    "pack_size": "6/5 LB",
+    "cases_per_pallet": 70
+  },
+  "600062": {
+    "description": "TURKEY BURGERS 93/7 RETAIL",
+    "brand": "JENNIE-O",
+    "pack_size": "8/1LB",
+    "cases_per_pallet": 66
+  },
+  "61535": {
+    "description": "POLLOCK BATTERED 3LB RETAIL",
+    "brand": "FLEETWOOD",
+    "pack_size": "10/3LB",
+    "cases_per_pallet": 50
+  },
+  "63403": {
+    "description": "CHICKEN THIGH B GRADE BULK",
+    "brand": "CASE FARMS",
+    "pack_size": "40 LB BULK",
+    "cases_per_pallet": 42
+  },
+  "63901": {
+    "description": "FC GRILL CHICKEN FILLETS, #2",
+    "brand": "TIP TOP",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 140
+  },
+  "63988": {
+    "description": "FC GRILL CHICKEN FILLETS, #2",
+    "brand": "TIP TOP",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 140
+  },
+  "63990": {
+    "description": "FC GRILL CHICKEN FILLETS, #2",
+    "brand": "TIP TOP",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 63
+  },
+  "65614": {
+    "description": "CHICKEN BRST B/S FAMILY CW RETAIL",
+    "brand": "PACKER",
+    "pack_size": "14/4LB",
+    "cases_per_pallet": 30
+  },
+  "66159": {
+    "description": "PORK ST LOUIS RIBS 2.5LB FRZ CW",
+    "brand": "BEELERS",
+    "pack_size": "6/1PC",
+    "cases_per_pallet": 72
+  },
+  "66806": {
+    "description": "PORK ST LOUIS RIBS 4LB FRZ CW",
+    "brand": "BEELERS",
+    "pack_size": "4/2PC",
+    "cases_per_pallet": 99
+  },
+  "66808": {
+    "description": "PORK ST LOUIS RIBS 2.75LB FRZ",
+    "brand": "BEELERS",
+    "pack_size": "3/3PC",
+    "cases_per_pallet": 72
+  },
+  "68463": {
+    "description": "PORK PICNIC CUSH/IN BNLS VAC FRZ CW",
+    "brand": "HORMEL",
+    "pack_size": "2/15LB",
+    "cases_per_pallet": 35,
+    "ti": 7,
+    "hi": 5
+  },
+  "69561": {
+    "description": "CHICKEN FILET BRD PREM RTC FRZ",
+    "brand": "TYSON",
+    "pack_size": "6/5.621LB",
+    "cases_per_pallet": 42
+  },
+  "78101": {
+    "description": "RTC SPICY CHICKEN NUGGETS - RETAIL",
+    "brand": "FLEETWOOD",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 144
+  },
+  "79000": {
+    "description": "FARM CUT FRIES, 3/8\" X 13/16\" S/O",
+    "brand": "MCCRUM",
+    "pack_size": "6/5 LB",
+    "cases_per_pallet": 60
+  },
+  "8018": {
+    "description": "16-2.5 LBS. CHICKEN WING SECTIONS RETAIL",
+    "brand": "MR CHIKIN",
+    "pack_size": "16/2.5 LB",
+    "cases_per_pallet": 42
+  },
+  "80490": {
+    "description": "IF ECONOMY WING SECTIONS",
+    "brand": "FLEETWOOD",
+    "pack_size": "8-5 LB",
+    "cases_per_pallet": 40
+  },
+  "812": {
+    "description": "UNCKD, ICED GLZD CHCKN WNG SCTN CW RETAIL",
+    "brand": "SMOKEY D",
+    "pack_size": "16/2.5LB",
+    "cases_per_pallet": 40
+  },
+  "81570": {
+    "description": "SAUSAGE POLISH LINKS FC 4:1 FRZ",
+    "brand": "SHEBOYGAN",
+    "pack_size": "4/2.5LB",
+    "cases_per_pallet": 96
+  },
+  "8195": {
+    "description": "BACON LO AW FRZ",
+    "brand": "HATFIELD",
+    "pack_size": "15 LB",
+    "cases_per_pallet": 96
+  },
+  "8197": {
+    "description": "BUFFET BACON PLUS",
+    "brand": "HATFIELD",
+    "pack_size": "15LB",
+    "cases_per_pallet": 90,
+    "ti": 9,
+    "hi": 10
+  },
+  "82730": {
+    "description": "BEEF BURGER PATTIE 75% 4Z HALAL FRZ",
+    "brand": "AMERICAN FOODS GROUP",
+    "pack_size": "6/32/4OZ",
+    "cases_per_pallet": 24
+  },
+  "82768": {
+    "description": "BEEF BURGERS 80% 4OZ RETAIL 2LB",
+    "brand": "AMERICAN FOODS GROUP",
+    "pack_size": "16-8/4OZ",
+    "cases_per_pallet": 48
+  },
+  "82825": {
+    "description": "BEEF BURGER 75% 5.3OZ FRZ",
+    "brand": "AMERICAN FOODS GROUP",
+    "pack_size": "45/5.3OZ",
+    "cases_per_pallet": 80
+  },
+  "83764": {
+    "description": "TURKEY BREAST HRB SLICED RTL FRZ CW RETAIL",
+    "brand": "COLUMBUS CRAFT MEATS",
+    "pack_size": "10/2LB",
+    "cases_per_pallet": 40
+  },
+  "83775": {
+    "description": "SAUSAGE HOT ITALIAN RAW RETAIL",
+    "brand": "SHEBOYGAN",
+    "pack_size": "12/1LB",
+    "cases_per_pallet": 80
+  },
+  "846902": {
+    "description": "TURKEY DELI NC TEND BROWN FRZ",
+    "brand": "JENNIE-O",
+    "pack_size": "2/8 LB",
+    "cases_per_pallet": 54
+  },
+  "848203": {
+    "description": "TURKEY BREAST SLICED .7OZ SMK RETAIL",
+    "brand": "HORMEL",
+    "pack_size": "6/2LB",
+    "cases_per_pallet": 120
+  },
+  "85080": {
+    "description": "BEEF STEAK UTL STRIP TNDRZ 8OZ FRZ",
+    "brand": "CITY KITCHEN",
+    "pack_size": "20/8OZ",
+    "cases_per_pallet": 72
+  },
+  "86888": {
+    "description": "FC BRD SPICY CHICKEN BREAST FILLET RETAIL",
+    "brand": "7-11",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 143
+  },
+  "87427": {
+    "description": "FC BRD CHICKEN TENDERS",
+    "brand": "KOCH",
+    "pack_size": "5/5 LB",
+    "cases_per_pallet": 64
+  },
+  "88401": {
+    "description": "FC GRILLED CHICKEN BREAST STRIPS",
+    "brand": "KOCH",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 143
+  },
+  "90184T": {
+    "description": "FC GRILL CHICKEN FILLETS, #2",
+    "brand": "TIP TOP",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 63
+  },
+  "93367": {
+    "description": "FC CHICKEN PATTIES 3 OZ",
+    "brand": "ERIE",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 130,
+    "ti": 10,
+    "hi": 13
+  },
+  "93680": {
+    "description": "FC CHICKEN FRIES RETAIL",
+    "brand": "ERIE",
+    "pack_size": "12-2 LB",
+    "cases_per_pallet": 48
+  },
+  "93681": {
+    "description": "FC FORMED POPCORN CHICKEN RETAIL",
+    "brand": "ERIE",
+    "pack_size": "12-2 LB",
+    "cases_per_pallet": 48
+  },
+  "93682": {
+    "description": "FC CHICKEN PATTIES, 4 OZ",
+    "brand": "ERIE",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 130
+  },
+  "93683": {
+    "description": "FC CHICKEN NUGGETS RETAIL",
+    "brand": "ERIE",
+    "pack_size": "12-2 LB",
+    "cases_per_pallet": 48
+  },
+  "93684": {
+    "description": "FC CHICKEN PATTIES RETAIL",
+    "brand": "ERIE",
+    "pack_size": "12-2 LB",
+    "cases_per_pallet": 48
+  },
+  "93685": {
+    "description": "FC FORMED CHICKEN STRIPS RETAIL",
+    "brand": "ERIE",
+    "pack_size": "12-2 LB",
+    "cases_per_pallet": 48
+  },
+  "9615": {
+    "description": "RTC BATTERED CHICKEN NUGGETS RTL",
+    "brand": "FLEETWOOD",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 144
+  },
+  "97220": {
+    "description": "SHREDDED CHEDDAR YELLOW CHEESE",
+    "brand": "SHREDDING HUNGER",
+    "pack_size": "24/1LB",
+    "cases_per_pallet": 60,
+    "ti": 10,
+    "hi": 6
+  },
+  "9741": {
+    "description": "PORK SAUSAGE MILD RTL FRZ",
+    "brand": "GWALTNEY",
+    "pack_size": "12/1LB",
+    "cases_per_pallet": 80
+  },
+  "99001": {
+    "description": "HAM UNCURED BNLS #2",
+    "brand": "BEELERS",
+    "pack_size": "12/CASE",
+    "cases_per_pallet": 49,
+    "ti": 7,
+    "hi": 7
+  },
+  "99139": {
+    "description": "BACON ENDS PIECES BF BULK FRZ",
+    "brand": "BEELERS",
+    "pack_size": "20LB",
+    "cases_per_pallet": 80
+  },
+  "GB8726": {
+    "description": "FC ROASTED CHICKEN WING SECTIONS",
+    "brand": "GOLDEN BIRD",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 130
+  },
+  "R0911": {
+    "description": "FC BRD BREAST STRIPS",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 104
+  },
+  "R111125": {
+    "description": "FC BREADED BNLS CHUNK 15-40 GRAM",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 96
+  },
+  "R111355": {
+    "description": "FC BREADED SPICY BNLS CHUNK 15-40 G",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 96
+  },
+  "R1125": {
+    "description": "FC BREADED SPICY WM FILET 124-160 G",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 96
+  },
+  "R26589": {
+    "description": "FC BREADED SPICY WM FILET",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 96
+  },
+  "R4212": {
+    "description": "FC BREADED TENDERS",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 104
+  },
+  "R4215": {
+    "description": "FC CHICKEN BREAST STRIP FRITTERS",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 119
+  },
+  "R4501": {
+    "description": "FC BRD CHICKEN STRIPS",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 104
+  },
+  "R4502": {
+    "description": "FC BREADED WM SPICY BREAST STRIPS",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 104
+  },
+  "R672970": {
+    "description": "FC BREADED BRST STRIPS 30-60 GRAM",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 96
+  },
+  "R7025": {
+    "description": "FC BREADED BUFFALO CHUNK",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 104
+  },
+  "R7027": {
+    "description": "FC BREADED CHEEZY HOTZ CHUNK FRITTR",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 96
+  },
+  "R791895": {
+    "description": "FC ROASTED DRUMS",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5 LB",
+    "cases_per_pallet": 104
+  },
+  "R792402": {
+    "description": "FC BREADED SPICY BONELESS CHUNK",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 90
+  },
+  "R792426": {
+    "description": "FC BREADED WM FILET 54-62 GRAM",
+    "brand": "JESSE JEWELS",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 96,
+    "ti": 12,
+    "hi": 8
+  },
+  "R792441": {
+    "description": "FC BREADED WM STRIPS 32-48 GRAM",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 96
+  },
+  "R792451": {
+    "description": "FC BREADED SPICY WM STRIPS",
+    "brand": "JESSIE JEWELL",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 104
+  },
+  "R987702": {
+    "description": "FC WM POPCORN 5-28 GRAM",
+    "brand": "JESSE JEWELS",
+    "pack_size": "2/5LB",
+    "cases_per_pallet": 96,
+    "ti": 12,
+    "hi": 8
+  }
+}

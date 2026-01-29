@@ -1,0 +1,71 @@
+{
+  "categories": [
+    {
+      "name": "Turkey",
+      "keywords": ["turkey", "turk"],
+      "color": "FFFFCCCC",
+      "colorName": "Light Pink",
+      "sortOrder": 1
+    },
+    {
+      "name": "Chicken",
+      "keywords": [
+        "chicken", "chick", "wing", "tender", "nugget", "patty", 
+        "filet", "fillet", "breast", "thigh", "drumstick", "leg",
+        "wog", "poultry", "hen", "fryer", "roaster"
+      ],
+      "color": "FFCCE5FF",
+      "colorName": "Light Blue",
+      "sortOrder": 2
+    },
+    {
+      "name": "Pork",
+      "keywords": [
+        "pork", "bacon", "ham", "sausage", "rib", "loin", 
+        "chop", "belly", "shoulder", "butt", "carnitas"
+      ],
+      "color": "FFFFCC99",
+      "colorName": "Light Coral/Peach",
+      "sortOrder": 3
+    },
+    {
+      "name": "Beef",
+      "keywords": [
+        "beef", "burger", "meatball", "roast", "steak", 
+        "chuck", "sirloin", "ribeye", "brisket", "ground beef"
+      ],
+      "color": "FFCCCCFF",
+      "colorName": "Light Purple",
+      "sortOrder": 4
+    },
+    {
+      "name": "Seafood",
+      "keywords": [
+        "pollock", "fish", "shrimp", "seafood", "salmon", 
+        "tilapia", "cod", "catfish", "crab", "lobster", "tuna"
+      ],
+      "color": "FFFFFF99",
+      "colorName": "Light Yellow",
+      "sortOrder": 5
+    },
+    {
+      "name": "Other",
+      "keywords": [],
+      "color": "FFE6E6E6",
+      "colorName": "Light Gray",
+      "sortOrder": 6,
+      "isDefault": true
+    }
+  ],
+  "notes": {
+    "matchingLogic": "Check description for keywords in order. First match wins. If no match, use 'Other'.",
+    "caseInsensitive": true,
+    "partialMatch": true,
+    "examples": {
+      "FC WING SECTIONS": "Chicken (matches 'wing')",
+      "TURKEY GROUND 93/7": "Turkey (matches 'turkey')",
+      "BEEF MEATBALLS ITALIAN": "Beef (matches 'beef', 'meatball')",
+      "FARM CUT FRIES": "Other (no protein keywords)"
+    }
+  }
+}

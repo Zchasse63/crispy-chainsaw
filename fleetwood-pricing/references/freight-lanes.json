@@ -1,0 +1,275 @@
+{
+  "quoteParameters": {
+    "weight": 4000,
+    "pallets": 2,
+    "freightClass": "CLASS_70",
+    "temperatureMode": "FROZEN",
+    "notes": "Standard 2-pallet minimum for customer pricing"
+  },
+  "warehouses": {
+    "GA": {
+      "name": "Americus, GA",
+      "code": "GA COLD",
+      "zip": "31709",
+      "reeferMultiplier": 1.90,
+      "notes": "Lowest multiplier - Southeast poultry hub with abundant reefer capacity"
+    },
+    "PA": {
+      "name": "Boyertown, PA",
+      "code": "A R T",
+      "zip": "19512",
+      "reeferMultiplier": 2.35,
+      "notes": "Higher multiplier - tighter reefer capacity in Northeast"
+    },
+    "IN": {
+      "name": "Indianapolis, IN",
+      "code": "Indianapolis",
+      "zip": "46201",
+      "reeferMultiplier": 2.10,
+      "notes": "Mid-range multiplier - moderate Midwest capacity"
+    }
+  },
+  "lanes": [
+    {
+      "id": "GA_ATL",
+      "origin": "GA",
+      "destination": "Atlanta, GA",
+      "destZip": "30303",
+      "region": "SE",
+      "customerConcentration": "29%",
+      "notes": "Georgia local - highest customer concentration"
+    },
+    {
+      "id": "GA_JAX",
+      "origin": "GA",
+      "destination": "Jacksonville, FL",
+      "destZip": "32099",
+      "region": "SE",
+      "customerConcentration": "13%",
+      "notes": "Florida - second highest concentration"
+    },
+    {
+      "id": "GA_CLT",
+      "origin": "GA",
+      "destination": "Charlotte, NC",
+      "destZip": "28202",
+      "region": "SE",
+      "customerConcentration": "6%"
+    },
+    {
+      "id": "GA_BNA",
+      "origin": "GA",
+      "destination": "Nashville, TN",
+      "destZip": "37201",
+      "region": "SE",
+      "customerConcentration": "7%"
+    },
+    {
+      "id": "GA_BHM",
+      "origin": "GA",
+      "destination": "Birmingham, AL",
+      "destZip": "35203",
+      "region": "SE",
+      "customerConcentration": "3%"
+    },
+    {
+      "id": "GA_MSY",
+      "origin": "GA",
+      "destination": "New Orleans, LA",
+      "destZip": "70112",
+      "region": "SE",
+      "customerConcentration": "3%"
+    },
+    {
+      "id": "GA_NYC",
+      "origin": "GA",
+      "destination": "New York, NY",
+      "destZip": "10001",
+      "region": "NE",
+      "customerConcentration": "3%",
+      "notes": "GA to NE - longer haul"
+    },
+    {
+      "id": "GA_DFW",
+      "origin": "GA",
+      "destination": "Dallas, TX",
+      "destZip": "75201",
+      "region": "TX",
+      "customerConcentration": "7%"
+    },
+    {
+      "id": "GA_HOU",
+      "origin": "GA",
+      "destination": "Houston, TX",
+      "destZip": "77001",
+      "region": "TX",
+      "customerConcentration": "included in TX"
+    },
+    {
+      "id": "PA_NYC",
+      "origin": "PA",
+      "destination": "New York, NY",
+      "destZip": "10001",
+      "region": "NE",
+      "customerConcentration": "3%"
+    },
+    {
+      "id": "PA_PHL",
+      "origin": "PA",
+      "destination": "Philadelphia, PA",
+      "destZip": "19103",
+      "region": "NE",
+      "customerConcentration": "3%",
+      "notes": "PA local"
+    },
+    {
+      "id": "PA_BOS",
+      "origin": "PA",
+      "destination": "Boston, MA",
+      "destZip": "02101",
+      "region": "NE",
+      "customerConcentration": "<1%"
+    },
+    {
+      "id": "PA_BAL",
+      "origin": "PA",
+      "destination": "Baltimore, MD",
+      "destZip": "21201",
+      "region": "NE",
+      "customerConcentration": "1%"
+    },
+    {
+      "id": "PA_PIT",
+      "origin": "PA",
+      "destination": "Pittsburgh, PA",
+      "destZip": "15222",
+      "region": "NE"
+    },
+    {
+      "id": "PA_CMH",
+      "origin": "PA",
+      "destination": "Columbus, OH",
+      "destZip": "43215",
+      "region": "NE",
+      "customerConcentration": "2%"
+    },
+    {
+      "id": "PA_ATL",
+      "origin": "PA",
+      "destination": "Atlanta, GA",
+      "destZip": "30303",
+      "region": "SE",
+      "notes": "PA to SE - cross-region"
+    },
+    {
+      "id": "PA_JAX",
+      "origin": "PA",
+      "destination": "Jacksonville, FL",
+      "destZip": "32099",
+      "region": "SE",
+      "notes": "PA to SE - cross-region"
+    },
+    {
+      "id": "PA_DFW",
+      "origin": "PA",
+      "destination": "Dallas, TX",
+      "destZip": "75201",
+      "region": "TX",
+      "notes": "PA to TX"
+    },
+    {
+      "id": "IN_CHI",
+      "origin": "IN",
+      "destination": "Chicago, IL",
+      "destZip": "60601",
+      "region": "TX",
+      "notes": "Indianapolis to Midwest - maps to TX/Central region for pricing"
+    },
+    {
+      "id": "IN_BNA",
+      "origin": "IN",
+      "destination": "Nashville, TN",
+      "destZip": "37201",
+      "region": "SE",
+      "notes": "IN to SE border"
+    },
+    {
+      "id": "IN_CMH",
+      "origin": "IN",
+      "destination": "Columbus, OH",
+      "destZip": "43215",
+      "region": "NE",
+      "notes": "IN to NE border"
+    },
+    {
+      "id": "IN_DET",
+      "origin": "IN",
+      "destination": "Detroit, MI",
+      "destZip": "48201",
+      "region": "NE",
+      "notes": "IN to NE - Michigan"
+    },
+    {
+      "id": "IN_STL",
+      "origin": "IN",
+      "destination": "St. Louis, MO",
+      "destZip": "63101",
+      "region": "TX",
+      "notes": "IN to TX/Central region"
+    },
+    {
+      "id": "IN_LOU",
+      "origin": "IN",
+      "destination": "Louisville, KY",
+      "destZip": "40202",
+      "region": "SE",
+      "notes": "IN to SE - Kentucky"
+    },
+    {
+      "id": "IN_ATL",
+      "origin": "IN",
+      "destination": "Atlanta, GA",
+      "destZip": "30303",
+      "region": "SE",
+      "notes": "IN to SE - cross-region"
+    }
+  ],
+  "regionalAveraging": {
+    "SE": {
+      "description": "Southeast region freight rate",
+      "primaryLanes": ["GA_ATL", "GA_JAX", "GA_CLT", "GA_BNA"],
+      "method": "Use average of primary lanes for GA warehouse. For PA warehouse, use PA_ATL and PA_JAX average."
+    },
+    "NE": {
+      "description": "Northeast region freight rate", 
+      "primaryLanes": ["PA_NYC", "PA_PHL", "PA_BOS", "PA_BAL", "PA_CMH"],
+      "method": "Use average of primary lanes for PA warehouse. For GA warehouse, use GA_NYC."
+    },
+    "TX": {
+      "description": "Texas/Central-West region freight rate",
+      "primaryLanes": ["GA_DFW", "GA_HOU", "PA_DFW"],
+      "method": "Use average of available lanes per warehouse."
+    }
+  },
+  "reeferMultiplier": {
+    "formula": "Reefer = Dry × Origin Multiplier × Season Modifier",
+    "originMultipliers": {
+      "GA": 1.90,
+      "PA": 2.35,
+      "IN": 2.10
+    },
+    "minimumCharge": 350,
+    "seasonModifiers": {
+      "1": 1.00, "2": 1.00, "3": 1.00, "4": 1.00,
+      "5": 1.15, "6": 1.15, "7": 1.15,
+      "8": 1.00, "9": 1.00, "10": 1.00,
+      "11": 1.08, "12": 1.08
+    },
+    "calibrationNotes": {
+      "lastCalibrated": "2026-01-21",
+      "basedOn": "4 actual broker quotes (Jan 2026)",
+      "accuracy": "Within 5-10% of actual broker rates",
+      "previousMultiplier": "2.75 base × origin modifier (was 37-176% high)"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "generated": "2026-01-21",
+  "pickup_date": "2026-01-26",
+  "parameters": {
+    "weight_lbs": 4000,
+    "pallets": 2,
+    "freight_class": 70,
+    "origin_multipliers": {
+      "GA_COLD": 1.9,
+      "A_R_T": 2.35,
+      "Indianapolis": 2.1
+    },
+    "season_modifier": 1.0,
+    "calibration_date": "2026-01-21",
+    "calibration_notes": "Multipliers calibrated against 4 actual broker quotes"
+  },
+  "dry_quotes": {
+    "GA_COLD": {
+      "Atlanta": 679.33,
+      "Jacksonville": 504.12,
+      "Charlotte": 490.65,
+      "Nashville": 514.19,
+      "Birmingham": 447.02,
+      "New_Orleans": 903.2,
+      "New_York": 2106.35,
+      "Philadelphia": 1594.48,
+      "Dallas": 901.74,
+      "Houston": 767.84
+    },
+    "A_R_T": {
+      "New_York": 1486.63,
+      "Boston": 968.19,
+      "Baltimore": 417.05,
+      "Pittsburgh": 425.76,
+      "Columbus": 565.09,
+      "Atlanta": 821.54,
+      "Jacksonville": 1005.35,
+      "Dallas": 1161.84
+    }
+  },
+  "reefer_quotes": {
+    "GA_COLD": {
+      "Atlanta": 1290.73,
+      "Jacksonville": 957.83,
+      "Charlotte": 932.23,
+      "Nashville": 976.96,
+      "Birmingham": 849.34,
+      "New_Orleans": 1716.08,
+      "New_York": 4002.06,
+      "Philadelphia": 3029.51,
+      "Dallas": 1713.31,
+      "Houston": 1458.9
+    },
+    "A_R_T": {
+      "New_York": 3493.58,
+      "Boston": 2275.25,
+      "Baltimore": 980.07,
+      "Pittsburgh": 1000.54,
+      "Columbus": 1327.96,
+      "Atlanta": 1930.62,
+      "Jacksonville": 2362.57,
+      "Dallas": 2730.32
+    }
+  },
+  "freight_per_lb": {
+    "GA_COLD": {
+      "Atlanta": 0.3227,
+      "Jacksonville": 0.2395,
+      "Charlotte": 0.2331,
+      "Nashville": 0.2442,
+      "Birmingham": 0.2123,
+      "New_Orleans": 0.429,
+      "New_York": 1.0005,
+      "Philadelphia": 0.7574,
+      "Dallas": 0.4283,
+      "Houston": 0.3647
+    },
+    "A_R_T": {
+      "New_York": 0.8734,
+      "Boston": 0.5688,
+      "Baltimore": 0.245,
+      "Pittsburgh": 0.2501,
+      "Columbus": 0.332,
+      "Atlanta": 0.4827,
+      "Jacksonville": 0.5906,
+      "Dallas": 0.6826
+    }
+  },
+  "regional_rates": {
+    "GA_COLD": {
+      "SE": 0.2801,
+      "NE": 0.8789,
+      "TX": 0.3965
+    },
+    "A_R_T": {
+      "SE": 0.5367,
+      "NE": 0.4539,
+      "TX": 0.6826
+    },
+    "Indianapolis": {
+      "SE": 0.4036,
+      "NE": 0.6586,
+      "TX": 0.5332
+    }
+  }
+}

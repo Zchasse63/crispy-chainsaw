@@ -1,0 +1,115 @@
+{
+  "patterns": [
+    {
+      "name": "multiplied_with_space",
+      "regex": "^(\\d+)\\s*/\\s*(\\d+\\.?\\d*)\\s*LB",
+      "example": "2/5 LB, 6/5 LB, 12/1 LB",
+      "calculation": "group1 × group2",
+      "notes": "Most common format: count/weight LB"
+    },
+    {
+      "name": "multiplied_no_space",
+      "regex": "^(\\d+)/(\\d+\\.?\\d*)LB",
+      "example": "2/5LB, 6/5LB, 12/1LB",
+      "calculation": "group1 × group2"
+    },
+    {
+      "name": "multiplied_dash_delimiter",
+      "regex": "^(\\d+)-(\\d+\\.?\\d*)\\s*LB",
+      "example": "8-5 LB, 12-2 LB, 4-10LB",
+      "calculation": "group1 × group2",
+      "notes": "Dash used as delimiter instead of slash - same meaning (count-weight LB)"
+    },
+    {
+      "name": "bulk_with_space",
+      "regex": "^(\\d+\\.?\\d*)\\s*LB",
+      "example": "40 LB, 30 LB, 10 LB",
+      "calculation": "group1",
+      "notes": "Single bulk weight"
+    },
+    {
+      "name": "bulk_no_space",
+      "regex": "^(\\d+\\.?\\d*)LB",
+      "example": "40LB, 30LB",
+      "calculation": "group1"
+    },
+    {
+      "name": "bags_format",
+      "regex": "^(\\d+)/(\\d+\\.?\\d*)LB\\s*BAGS?",
+      "example": "6/5LB BAGS",
+      "calculation": "group1 × group2"
+    },
+    {
+      "name": "decimal_weight",
+      "regex": "^(\\d+)/(\\d+\\.\\d+)\\s*LB",
+      "example": "6/5.62LB, 6/5.621LB",
+      "calculation": "group1 × group2",
+      "notes": "For precise weights like Tyson products"
+    },
+    {
+      "name": "ounce_format",
+      "regex": "^(\\d+)/(\\d+\\.?\\d*)\\s*OZ",
+      "example": "12/20 OZ, 45/5.3OZ",
+      "calculation": "(group1 × group2) / 16",
+      "notes": "Convert ounces to pounds"
+    },
+    {
+      "name": "tray_format",
+      "regex": "^(\\d+)/(\\d+\\.?\\d*)OZ\\s*TR",
+      "example": "2/174OZ TR",
+      "calculation": "(group1 × group2) / 16",
+      "notes": "Tray items in ounces"
+    },
+    {
+      "name": "tote_format",
+      "regex": "^(\\d+)\\s*LB\\s*TT",
+      "example": "1000 LB TT",
+      "calculation": "group1",
+      "notes": "Tote items - large bulk"
+    }
+  ],
+  "catchWeightIndicators": [
+    {
+      "pattern": "\\d+/\\d*\\s*PC",
+      "example": "4/1PC, 4/1 PC",
+      "isCatchWeight": true,
+      "notes": "Pieces - whole birds, primals"
+    },
+    {
+      "pattern": "\\d+-?\\d*/HD",
+      "example": "10-12/HD, 10/HD",
+      "isCatchWeight": true,
+      "notes": "Head count - whole chickens"
+    },
+    {
+      "pattern": "\\d+\\s*Head/cs",
+      "example": "10Head/cs",
+      "isCatchWeight": true
+    },
+    {
+      "pattern": "CW",
+      "example": "FRZ CW, RETAIL CW",
+      "isCatchWeight": true,
+      "notes": "CW in description indicates catch weight"
+    },
+    {
+      "pattern": "CATCH\\s*W",
+      "example": "CATCH WEIGHT",
+      "isCatchWeight": true
+    }
+  ],
+  "parseFunction": "function parsePackSize(packSize, description = '') {\n  // Check for catch weight first\n  const cwPatterns = ['PC', 'HD', 'Head', 'CW'];\n  if (cwPatterns.some(p => packSize.toUpperCase().includes(p) || description.toUpperCase().includes(' CW '))) {\n    return null; // Catch weight - no case price\n  }\n  \n  // Try multiplied format: N/N LB\n  let match = packSize.match(/(\\d+)\\s*\\/\\s*(\\d+\\.?\\d*)\\s*LB/i);\n  if (match) return parseFloat(match[1]) * parseFloat(match[2]);\n  \n  // Try bulk format: N LB\n  match = packSize.match(/^(\\d+\\.?\\d*)\\s*LB/i);\n  if (match) return parseFloat(match[1]);\n  \n  // Try ounce format: N/N OZ\n  match = packSize.match(/(\\d+)\\s*\\/\\s*(\\d+\\.?\\d*)\\s*OZ/i);\n  if (match) return (parseFloat(match[1]) * parseFloat(match[2])) / 16;\n  \n  return null; // Could not parse\n}",
+  "examples": {
+    "2/5 LB": 10,
+    "6/5 LB": 30,
+    "12/1LB": 12,
+    "8-5 LB": 40,
+    "12-2 LB": 24,
+    "40 LB": 40,
+    "6/5.62LB": 33.72,
+    "12/20 OZ": 15,
+    "4/1PC": null,
+    "10-12/HD": null,
+    "2/174OZ TR": 21.75
+  }
+}
