@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "quoteDate": "2026-01-28",
+    "seasonModifier": 1.0,
+    "seasonType": "normal",
+    "dryWeight": 4000,
+    "multipliers": {
+      "GA_COLD": 1.9,
+      "A_R_T": 2.35
+    }
+  },
+  "warehouses": {
+    "GA_COLD": {
+      "SE": {
+        "average_per_lb": 0.115,
+        "lanes": {
+          "Atlanta_30303": {
+            "dry": 243,
+            "reefer": 461.7,
+            "per_lb": 0.115
+          }
+        }
+      },
+      "NE": {
+        "average_per_lb": 0.398,
+        "lanes": {
+          "NYC_10001": {
+            "dry": 837,
+            "reefer": 1590.3,
+            "per_lb": 0.398
+          }
+        }
+      },
+      "TX": {
+        "average_per_lb": 0.196,
+        "lanes": {
+          "Dallas_75201": {
+            "dry": 412,
+            "reefer": 782.8,
+            "per_lb": 0.196
+          }
+        }
+      }
+    },
+    "A_R_T": {
+      "SE": {
+        "average_per_lb": 0.465,
+        "lanes": {
+          "Atlanta_30303": {
+            "dry": 791,
+            "reefer": 1858.85,
+            "per_lb": 0.465
+          }
+        }
+      },
+      "NE": {
+        "average_per_lb": 0.371,
+        "lanes": {
+          "NYC_10001": {
+            "dry": 631,
+            "reefer": 1482.85,
+            "per_lb": 0.371
+          }
+        }
+      },
+      "TX": {
+        "average_per_lb": 0.629,
+        "lanes": {
+          "Dallas_75201": {
+            "dry": 1071,
+            "reefer": 2516.85,
+            "per_lb": 0.629
+          }
+        }
+      }
+    }
+  },
+  "summary": {
+    "GA_COLD": {
+      "SE": 0.115,
+      "NE": 0.398,
+      "TX": 0.196
+    },
+    "A_R_T": {
+      "SE": 0.465,
+      "NE": 0.371,
+      "TX": 0.629
+    }
+  }
+}

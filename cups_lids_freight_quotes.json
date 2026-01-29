@@ -1,0 +1,705 @@
+{
+  "origin": "Gallatin, TN (37066)",
+  "shipment": {
+    "pallets": 2,
+    "weight_lbs": 1650,
+    "freight_class": "85",
+    "commodity": "Plastic cups and lids",
+    "pickup_date": "2026-01-26"
+  },
+  "quotes": {
+    "Atlanta, GA": {
+      "zip": "30303",
+      "lowest_cost": 302.77,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-27",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          302.77,
+          "2026-01-27"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          450.54,
+          "2026-01-27"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          521.54,
+          "2026-01-27"
+        ],
+        [
+          "ESTES EXPRESS",
+          591.71,
+          "2026-01-27"
+        ],
+        [
+          "R AND L CARRIERS",
+          624.74,
+          "2026-01-27"
+        ]
+      ]
+    },
+    "Tuscaloosa, AL": {
+      "zip": "35401",
+      "lowest_cost": 331.42,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-27",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          331.42,
+          "2026-01-27"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          479.91,
+          "2026-01-27"
+        ],
+        [
+          "ESTES EXPRESS",
+          544.29,
+          "2026-01-27"
+        ],
+        [
+          "XPO LOGISTICS FREIGHT, INC",
+          566.34,
+          "2026-01-27"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          591.51,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Birmingham, AL": {
+      "zip": "35203",
+      "lowest_cost": 317.69,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-27",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          317.69,
+          "2026-01-27"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          414.73,
+          "2026-01-27"
+        ],
+        [
+          "ESTES EXPRESS",
+          475.26,
+          "2026-01-27"
+        ],
+        [
+          "XPO LOGISTICS FREIGHT, INC",
+          524.29,
+          "2026-01-27"
+        ],
+        [
+          "R AND L CARRIERS",
+          558.09,
+          "2026-01-27"
+        ]
+      ]
+    },
+    "Jacksonville, FL": {
+      "zip": "32202",
+      "lowest_cost": 532.76,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-28",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          532.76,
+          "2026-01-28"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          628.48,
+          "2026-01-28"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          696.34,
+          "2026-01-28"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          818.84,
+          "2026-01-28"
+        ],
+        [
+          "R AND L CARRIERS",
+          1016.08,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Tampa, FL": {
+      "zip": "33602",
+      "lowest_cost": 456.73,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-28",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          456.73,
+          "2026-01-28"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          737,
+          "2026-01-28"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          792.03,
+          "2026-01-28"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          854.7,
+          "2026-01-28"
+        ],
+        [
+          "XPO LOGISTICS FREIGHT, INC",
+          1164.04,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Orlando, FL": {
+      "zip": "32801",
+      "lowest_cost": 452.08,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-28",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          452.08,
+          "2026-01-28"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          737,
+          "2026-01-28"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          774.23,
+          "2026-01-28"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          854.7,
+          "2026-01-28"
+        ],
+        [
+          "ESTES EXPRESS",
+          1184.24,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Miami, FL": {
+      "zip": "33101",
+      "lowest_cost": 528.23,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-28",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          528.23,
+          "2026-01-28"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          786.8,
+          "2026-01-29"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          824.02,
+          "2026-01-28"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          953.94,
+          "2026-01-28"
+        ],
+        [
+          "R AND L CARRIERS",
+          1336.38,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "New Orleans, LA": {
+      "zip": "70112",
+      "lowest_cost": 436.97,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-28",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          436.97,
+          "2026-01-28"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          605.47,
+          "2026-01-28"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          709.66,
+          "2026-01-27"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          730.8,
+          "2026-01-28"
+        ],
+        [
+          "R AND L CARRIERS",
+          858.42,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Charlotte, NC": {
+      "zip": "28202",
+      "lowest_cost": 391.68,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-27",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          391.68,
+          "2026-01-27"
+        ],
+        [
+          "ROADRUNNER FREIGHT",
+          530.11,
+          "2026-01-31"
+        ],
+        [
+          "ESTES EXPRESS",
+          556.95,
+          "2026-01-27"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          611.57,
+          "2026-01-28"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          617.5,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Raleigh, NC": {
+      "zip": "27601",
+      "lowest_cost": 369.42,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-28",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          369.42,
+          "2026-01-28"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          650.14,
+          "2026-01-28"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          656.09,
+          "2026-01-28"
+        ],
+        [
+          "ESTES EXPRESS",
+          677.45,
+          "2026-01-28"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          716.73,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Richmond, VA": {
+      "zip": "23219",
+      "lowest_cost": 448.5,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-28",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          448.5,
+          "2026-01-28"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          639.3,
+          "2026-01-29"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          696.49,
+          "2026-01-28"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          726.28,
+          "2026-01-28"
+        ],
+        [
+          "XPO LOGISTICS FREIGHT, INC",
+          745.34,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Norfolk, VA": {
+      "zip": "23510",
+      "lowest_cost": 557.93,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-28",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          557.93,
+          "2026-01-28"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          578.82,
+          "2026-01-29"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          739.11,
+          "2026-01-29"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          758.1,
+          "2026-01-28"
+        ],
+        [
+          "XPO LOGISTICS FREIGHT, INC",
+          794.48,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Philadelphia, PA": {
+      "zip": "19103",
+      "lowest_cost": 663.28,
+      "lowest_carrier": "ABF FREIGHT SYSTEM",
+      "delivery": "2026-01-29",
+      "all_quotes": [
+        [
+          "ABF FREIGHT SYSTEM",
+          663.28,
+          "2026-01-29"
+        ],
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          785.55,
+          "2026-01-30"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          832.84,
+          "2026-01-28"
+        ],
+        [
+          "WARD TRUCKING LLC",
+          971.72,
+          "2026-01-31"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          988.23,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Pittsburgh, PA": {
+      "zip": "15222",
+      "lowest_cost": 509.95,
+      "lowest_carrier": "ABF FREIGHT SYSTEM",
+      "delivery": "2026-01-29",
+      "all_quotes": [
+        [
+          "ABF FREIGHT SYSTEM",
+          509.95,
+          "2026-01-29"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          671.89,
+          "2026-01-28"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          733.4,
+          "2026-01-28"
+        ],
+        [
+          "WARD TRUCKING LLC",
+          747.86,
+          "2026-01-30"
+        ],
+        [
+          "XPO LOGISTICS FREIGHT, INC",
+          750.15,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Baltimore, MD": {
+      "zip": "21201",
+      "lowest_cost": 704.39,
+      "lowest_carrier": "ABF FREIGHT SYSTEM",
+      "delivery": "2026-01-29",
+      "all_quotes": [
+        [
+          "ABF FREIGHT SYSTEM",
+          704.39,
+          "2026-01-29"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          743.2,
+          "2026-01-28"
+        ],
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          746.86,
+          "2026-01-30"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          764.58,
+          "2026-01-28"
+        ],
+        [
+          "WARD TRUCKING LLC",
+          919.22,
+          "2026-01-30"
+        ]
+      ]
+    },
+    "Washington, DC": {
+      "zip": "20001",
+      "lowest_cost": 730.7,
+      "lowest_carrier": "ABF FREIGHT SYSTEM",
+      "delivery": "2026-01-29",
+      "all_quotes": [
+        [
+          "ABF FREIGHT SYSTEM",
+          730.7,
+          "2026-01-29"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          860.7,
+          "2026-01-29"
+        ],
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          908.99,
+          "2026-01-29"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          1047.19,
+          "2026-01-28"
+        ],
+        [
+          "WARD TRUCKING LLC",
+          1446.14,
+          "2026-01-30"
+        ]
+      ]
+    },
+    "Columbus, OH": {
+      "zip": "43215",
+      "lowest_cost": 494.22,
+      "lowest_carrier": "ABF FREIGHT SYSTEM",
+      "delivery": "2026-01-28",
+      "all_quotes": [
+        [
+          "ABF FREIGHT SYSTEM",
+          494.22,
+          "2026-01-28"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          546.15,
+          "2026-01-27"
+        ],
+        [
+          "XPO LOGISTICS FREIGHT, INC",
+          564.93,
+          "2026-01-27"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          583.7,
+          "2026-01-27"
+        ],
+        [
+          "ESTES EXPRESS",
+          610.59,
+          "2026-01-27"
+        ]
+      ]
+    },
+    "Cincinnati, OH": {
+      "zip": "45202",
+      "lowest_cost": 360.63,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-27",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          360.63,
+          "2026-01-27"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          444.85,
+          "2026-01-27"
+        ],
+        [
+          "ESTES EXPRESS",
+          463.95,
+          "2026-01-27"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          514.8,
+          "2026-01-28"
+        ],
+        [
+          "XPO LOGISTICS FREIGHT, INC",
+          525.97,
+          "2026-01-27"
+        ]
+      ]
+    },
+    "Cleveland, OH": {
+      "zip": "44114",
+      "lowest_cost": 483.41,
+      "lowest_carrier": "ABF FREIGHT SYSTEM",
+      "delivery": "2026-01-28",
+      "all_quotes": [
+        [
+          "ABF FREIGHT SYSTEM",
+          483.41,
+          "2026-01-28"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          575.59,
+          "2026-01-28"
+        ],
+        [
+          "ESTES EXPRESS",
+          578.5,
+          "2026-01-28"
+        ],
+        [
+          "XPO LOGISTICS FREIGHT, INC",
+          647.38,
+          "2026-01-27"
+        ],
+        [
+          "OLD DOMINION FREIGHT LINE INC",
+          667.09,
+          "2026-01-28"
+        ]
+      ]
+    },
+    "Lexington, KY": {
+      "zip": "40507",
+      "lowest_cost": 322.71,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-27",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          322.71,
+          "2026-01-27"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          434.76,
+          "2026-01-27"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          442.01,
+          "2026-01-28"
+        ],
+        [
+          "ESTES EXPRESS",
+          442.36,
+          "2026-01-27"
+        ],
+        [
+          "XPO LOGISTICS FREIGHT, INC",
+          455.69,
+          "2026-01-27"
+        ]
+      ]
+    },
+    "Louisville, KY": {
+      "zip": "40202",
+      "lowest_cost": 305.07,
+      "lowest_carrier": "SOUTHEASTERN FREIGHT LINES INC",
+      "delivery": "2026-01-27",
+      "all_quotes": [
+        [
+          "SOUTHEASTERN FREIGHT LINES INC",
+          305.07,
+          "2026-01-27"
+        ],
+        [
+          "TFORCE FREIGHT (FORMERLY UPS FREIGHT)",
+          393.87,
+          "2026-01-27"
+        ],
+        [
+          "XPO LOGISTICS FREIGHT, INC",
+          425.19,
+          "2026-01-27"
+        ],
+        [
+          "ESTES EXPRESS",
+          459.91,
+          "2026-01-27"
+        ],
+        [
+          "ABF FREIGHT SYSTEM",
+          465.8,
+          "2026-01-28"
+        ]
+      ]
+    }
+  }
+}

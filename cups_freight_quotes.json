@@ -1,0 +1,58 @@
+{
+  "Atlanta, GA": {
+    "zip": "30303",
+    "error": "HTTP 401"
+  },
+  "Tuscaloosa, AL": {
+    "zip": "35401",
+    "error": "HTTP 401"
+  },
+  "Birmingham, AL": {
+    "zip": "35203",
+    "error": "HTTP 401"
+  },
+  "Jacksonville, FL": {
+    "zip": "32202",
+    "error": "HTTP 401"
+  },
+  "Tampa, FL": {
+    "zip": "33602",
+    "error": "HTTP 401"
+  },
+  "Charlotte, NC": {
+    "zip": "28202",
+    "error": "HTTP 401"
+  },
+  "Raleigh, NC": {
+    "zip": "27601",
+    "error": "HTTP 401"
+  },
+  "Richmond, VA": {
+    "zip": "23219",
+    "error": "HTTP 401"
+  },
+  "Columbus, OH": {
+    "zip": "43215",
+    "error": "HTTP 401"
+  },
+  "Cincinnati, OH": {
+    "zip": "45202",
+    "error": "HTTP 401"
+  },
+  "Cleveland, OH": {
+    "zip": "44114",
+    "error": "HTTP 401"
+  },
+  "Pittsburgh, PA": {
+    "zip": "15222",
+    "error": "HTTP 401"
+  },
+  "Philadelphia, PA": {
+    "zip": "19103",
+    "error": "HTTP 401"
+  },
+  "Lexington, KY": {
+    "zip": "40507",
+    "error": "HTTP 401"
+  }
+}
